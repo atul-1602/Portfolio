@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.footer{
+    background-color: #7209b7;
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin-bottom: .5rem;
+    padding-bottom: 2rem;
+}
+.icon{
+    background-color: aliceblue;
+    height: 50rem;
+}
+.footer-left{
+    /* border: 2px solid black; */
+    width: 50%;
+    color: white;
+    margin-top: 0rem;
+}
+.footer-left p{
+    font-size: 2rem;
+    
+    color: white;
+    margin-top: 2.5rem;
+    text-align:start;
+    margin-left: 3rem;
+    margin-bottom: 0rem;
+    line-height: 1.2rem;
+}
+.footer-left span{
+    font-size: 1rem;
+    /* border: 2px solid black; */
+    color: white;
+    margin-top: 0px;
+    text-align:start;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+.footer-right{
+    margin-top: 0rem;
+    /* border: 2px solid black; */
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-right: 4rem;
+    padding-top: 1.5rem;
+}
+.fimage{
+    margin-top: .6rem;
+    height: 2.5rem;
+    margin-left: 1rem;
+    
+}
+.fimage img{
+    margin-top: 0rem;
+    height: 2.5rem;
+}
+@media screen and (max-width:750px) {
+    .footer{
+        height: 6rem;
+        
+        
+    }
+    .footer-left p{
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        text-align:start;
+        margin-left: 2rem;
+        margin-bottom: 0rem;
+        line-height: 1.2rem;
+    }
+    .footer-left span{
+        font-size: .7rem;
+        font-weight: 150;
+        
+    }
+    .footer-right{
+        width: 50%;
+        padding-right: 3rem;
+        padding-top: 1rem;
+    }
+    .fimage{
+        margin: .8rem;
+        
+    }
+   
+}
+@media screen and (max-width:450px) {
+    .footer{
+        margin-bottom: .5rem;
+        padding-bottom: 0rem;
+        
+    }
+    .footer-left p{
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        text-align:start;
+        margin-left: 1rem;
+        margin-bottom: 0rem;
+        line-height: 1.2rem;
+    }
+    .footer-left span{
+        font-size: .5rem;
+        font-weight: 150;
+        
+    }
+    .footer-right{
+        width: 50%;
+        padding-right: 2rem;
+        padding-top: 1rem;
+    }
+    .fimage{
+        margin: .6rem;
+        
+    }
+    .fimage img{
+        height: 1.5rem;
+     
+    }
+}

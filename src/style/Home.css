@@ -1,0 +1,273 @@
+* {
+  scroll-behavior: smooth;
+  margin: 0rem;
+  padding: 0rem;
+}
+.content {
+  background-color: #7209b7;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.contentinside{
+  width: 94%;
+  display: flex;
+  height: auto;
+  margin-top: 5rem;
+}
+.home-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+}
+.home-image {
+  margin-right: 0rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  width: 50%;
+}
+
+.home-image img {
+  width: 36vw;
+  height: 70vh;
+  margin-top: 1rem;
+}
+
+.detail-name{
+  margin-top: 2rem;
+}
+.home_name1 {
+  text-align: left;
+  animation-name: moveRight;
+  animation-duration: 0.7s;
+  animation-name: moveRight;
+  animation-duration: 0.7s;
+  font-size: 1.5rem;
+  color: white;
+}
+.home_name2 {
+  animation-name: moveRight;
+  animation-duration: 0.7s;
+  font-family: cursive;
+  font-size: 3.5rem;
+  color: white;
+}
+@keyframes moveRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-150px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(0);
+  }
+}
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.home_text {
+  margin-top: 1rem;
+  font-size: 2rem;
+  color:yellow;
+}
+.home-line {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  color: black;
+}
+.home-btn {
+  padding-top: 0rem;
+  margin-top: 0rem;
+  display: flex;
+}
+.hbtn{
+  background-color:#a13ee4;
+  height: 2.4rem;
+  width: 7.5rem;
+  
+  margin-top: 2rem;
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+.home-btn a{
+  text-decoration: none;
+}
+.resume{
+  border: 2px solid #a13ee4;
+}
+.resume span{
+  position: relative;
+  top: .4rem;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 200;
+}
+.resume span:hover{
+ background-color:#530885;
+ color: white;
+}
+
+.github{
+  border: 2px solid #a13ee4;
+  margin-left: 2rem;
+}
+
+.hbtn:hover{
+  background-color:#530885;
+  color: white;
+}
+.hbtn a{
+  color:white;
+  text-decoration: none;
+}
+.hbtn img{
+  background-color: #7209b7;
+  height: 1.5rem;
+  width: 2rem;
+  position: relative;
+  top: .4rem;
+  margin-right: .5rem;
+}
+.hbtn img:hover{
+  background-color: #7209b7;
+  
+}
+a :hover {
+  background-color: #ffc400;
+  color: #1e1d29;
+}
+h2 {
+  font-size: 2rem;
+}
+p {
+  font-size: 1rem;
+}
+/* .home-image img{
+  filter: drop-shadow(3px 1px 10px #a862d6);
+} */
+@media screen and (max-width:1200px) {
+  .home-image img {
+    width: 33vw;
+    height: 55vh;
+  }
+}
+@media screen and (max-width:1150px) {
+  .home_name1 {
+    font-size: 1.3rem;
+   
+  }
+  .home_name2 {
+    font-size: 3rem;
+  }
+  .home-line{
+    font-size: 1.4rem;
+  }
+  .home-image img {
+    width: 33vw;
+    height: 38vh;
+  }
+}
+@media screen and (max-width:1000px) {
+  .home-image img {
+    width: 35vw;
+    height: 40vh;
+  }
+  .home_name1 {
+    font-size: 1.1rem;
+   
+  }
+  .home_name2 {
+    font-size: 2.8rem;
+  }
+  .home-line{
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width:750px) {
+  .home-image  {
+    width: 90%;
+  }
+  .home-image img {
+    width: 50vw;
+    height: 38vh;
+    margin-bottom: 0rem;
+  }
+  .detail-name{
+    margin-top: 1rem;
+  }
+  .contentinside{
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .home-detail{
+    padding: 0rem;
+    width: 90%;
+    margin-top: 0rem;
+  }
+}
+@media screen and (max-width:550px) {
+  .home_name1 {
+    margin: 0rem;
+    padding: 0rem;
+    font-size: 1rem;
+  }
+  .home_name2 {
+    font-size: 2.3rem;
+  }
+  .home-line{
+    font-size: 1.1rem;
+  }
+  .detail-name{
+    margin-top: .8rem;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .home_name1 {
+    font-size: .8rem;
+   
+  }
+  .home-image img {
+    width: 50vw;
+    height: 28vh;
+  }
+  .home_name2 {
+    font-size: 1.8rem;
+  }
+  .home-line{
+    font-size: .9rem;
+  }
+  .detail-name{
+    margin-top: .6rem;
+  }
+}
+
